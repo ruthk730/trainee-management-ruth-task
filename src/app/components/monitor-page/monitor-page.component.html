@@ -3,7 +3,7 @@
         <div>
             <mat-form-field style="width: 100%;">
                 <mat-label>Filter by ID</mat-label>
-                <input matInput (input)="applyIdFilter()" [(ngModel)]="dataService.idFilter" placeholder="Filter by ID"
+                <input matInput (input)="applyIdFilter()" [(ngModel)]="dataService.idFilterMonitor" placeholder="Filter by ID"
                     #idInput="ngModel" name="idInput" />
                 <div *ngIf="idInput?.dirty || idInput?.touched" class="text-danger">
                     <div>To search for multiple choices, put commas without spaces between each value.</div>

@@ -22,6 +22,7 @@ export class DataService {
   public averageGradesMap;
   public filterStatus = 'both';
   public idFilter: string='';
+  public idFilterMonitor: string='';
   public filterValue: string = '';
   public filterData:string;
   public nameFilter:string;

@@ -8,8 +8,8 @@ const routes: Routes = [
   { path: "", component: DataPageComponent },
   { path: "analysis", component: AnalysisPageComponent },
   { path: "data", component: DataPageComponent },
-  { path: "monitor", component: MonitorPageComponent },
-  { path: "*", component: DataPageComponent }
+  { path: "monitor", component: MonitorPageComponent }
+  // { path: "*", component: DataPageComponent }
 ];
 
 @NgModule({

@@ -68,9 +68,9 @@ export class MonitorPageComponent implements OnInit {
   }
 
   applyIdFilter(): void {
-    const idFilter = this.dataService.idFilter;
-    this.filteredTrainees = idFilter
-      ? this.filterTraineesByIds(this.dataService.trainees, idFilter.split(','))
+    const idFilterMonitor = this.dataService.idFilterMonitor;
+    this.filteredTrainees = idFilterMonitor
+      ? this.filterTraineesByIds(this.dataService.trainees, idFilterMonitor.split(','))
       : this.dataService.trainees;
   }
 
